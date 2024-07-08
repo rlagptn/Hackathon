@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:padding="16dp"
+        android:text="Registration - Step 2"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="34sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:src="@drawable/baseline_group_add_24"
+        android:layout_marginLeft="135dp"/>
+
+    <EditText
+        android:id="@+id/editText_member1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Team Member 1"
+        android:minHeight="48dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editText_member_Email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Team Member 1 Email"
+        android:minHeight="48dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editText_member2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Team Member 2"
+        android:minHeight="48dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/editText_member_Email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Team Member 2 Email"
+        android:minHeight="40dp" />
+
+    <Button
+        android:id="@+id/button_next2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:backgroundTint="#7E57C2"
+        android:layout_marginTop="28dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
